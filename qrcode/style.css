@@ -1,0 +1,72 @@
+<style>
+  button#generate-qr {
+    color: #fff;
+    background-color: #7C4DFF;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 7px 15px;
+    margin: 0 auto;
+    width: 200px;
+    height:40px;
+}
+  button#generate-qr:hover {
+    background-color: #6200EA;
+}
+  
+  button#download-qr {
+    color: #fff;
+    background-color: #0091EA;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 7px 15px;
+    margin: 0 auto;
+} 
+  button#reset-qr {
+    color: #fff;
+    background-color: #F25A5A;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 7px 15px;
+    margin: 0 auto;
+} 
+  button#download-qr:hover {
+    background-color: #2962FF;
+}
+  button#reset-qr:hover {
+    background-color: #D32F2F;
+}
+button#download-qr, button#reset-qr {
+    display: block;
+    margin: 5px auto;
+}
+.qrcode {
+    position: relative;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+}
+.qrcode canvas#canvas {
+    background: #ddd;
+    text-align: center;
+    width: 180px;
+    height: 180px;
+}
+</style>
