@@ -1,0 +1,192 @@
+.preview {
+  z-index: 1;
+  position: relative;
+  width: 362px;
+  height: 224px;
+  border: #eddbdb solid 1px;
+  -moz-border-radius: 8px;
+  border-radius: 0px;
+  margin: auto;
+}
+
+.nuptk {
+  background: url(https://cdn.jsdelivr.net/gh/restuahmad/OPSBukal@master/assets/images/preview/nuptk.jpg)
+    center;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 4px 6px 4px #e5e4e4;
+}
+
+.nisn {
+  background: url(https://cdn.jsdelivr.net/gh/restuahmad/OPSBukal@master/assets/images/preview/nisn1.jpg)
+    center;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 4px 6px 4px #e5e4e4;
+}
+
+.nisn_foto {
+  background: url(https://cdn.jsdelivr.net/gh/restuahmad/OPSBukal@master/assets/images/preview/nisn2.jpg)
+    center;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 4px 6px 4px #e5e4e4;
+}
+
+.nrg {
+  background: url(https://cdn.jsdelivr.net/gh/restuahmad/OPSBukal@master/assets/images/preview/nrg.jpg)
+    center;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 4px 6px 4px #e5e4e4;
+}
+
+.kartu *,
+::before {
+  box-sizing: unset !important;
+}
+
+.kartu {
+  z-index: 7;
+  position: absolute;
+  left: 15px;
+  top: 105px;
+  height: 110px;
+  margin: 0px;
+  text-align: justify;
+  margin-top: 8px;
+  pointer-events: none;
+  line-height: 3px;
+  font-size: 12px;
+}
+
+.data_kartu > p > label {
+  z-index: 9;
+  float: left;
+  width: 85px;
+  text-align: left;
+  padding-left: 100px;
+}
+
+.kartunrg *,
+::after {
+  box-sizing: unset !important;
+}
+
+.kartunrg {
+  box-sizing: unset !important;
+  z-index: 7;
+  position: absolute;
+  left: -8px;
+  top: 76px;
+  height: 110px;
+  margin: 0px;
+  text-align: justify;
+  margin-top: 8px;
+  pointer-events: none;
+  line-height: 1px;
+  font-size: 12px;
+}
+
+.data_nrg > p > label {
+  z-index: 9;
+  float: left;
+  width: 98px;
+  text-align: left;
+  padding-left: 100px;
+}
+
+.nrgx {
+  box-sizing: unset !important;
+  z-index: 10;
+  position: absolute;
+  left: 13px;
+  top: 161px;
+  /* height: 110px; */
+  margin: 0px;
+  text-align: justify;
+  /* margin-top: 8px; */
+  pointer-events: none;
+  /* line-height: 1px; */
+  font-size: 16px;
+}
+.nrgx > p {
+  margin-bottom: -13px;
+}
+.nrgx > p > label {
+  font-size: 8.3px;
+  margin-left: 5px;
+}
+
+.fotox {
+  left: 14.5px;
+  top: 86px;
+  width: 82px;
+  height: 120px;
+  z-index: 6;
+  position: absolute;
+  pointer-events: none;
+}
+
+.fotonisn {
+  left: 20.5px;
+  top: 109px;
+  width: 75px;
+  height: 98px;
+  z-index: 6;
+  position: absolute;
+  pointer-events: none;
+}
+.fotonrg {
+  left: 25px;
+  top: 75px;
+  width: 60px;
+  height: 89px;
+  z-index: 6;
+  position: absolute;
+  pointer-events: none;
+}
+
+.qr {
+  right: 10px;
+  top: 170px;
+  width: 40px;
+  height: 40px;
+  z-index: 19;
+  position: absolute;
+  pointer-events: none;
+}
+
+.qrnisn {
+  right: 123px;
+  top: 119px;
+  width: 74px;
+  height: 74px;
+  z-index: 100;
+  position: inherit;
+  pointer-events: none;
+}
+.qrnrg {
+  right: 20px;
+  top: 158px;
+  width: 45px;
+  height: 45px;
+  z-index: 19;
+  position: absolute;
+  pointer-events: none;
+}
+
+#loader {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgb(229 239 241)
+    url(/assets/images/loader.gif)
+    no-repeat center center;
+  background-size: 150px;
+  z-index: 10000;
+}
