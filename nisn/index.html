@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Aplikasi Cetak Kartu NISN Online</title>
+    <style type="text/css">
+      * {
+        font-family: "Trebuchet MS";
+      }
+      h1 {
+        text-transform: uppercase;
+        color: green;
+      }
+    button {
+          background-color: green;
+          color: #fff;
+          padding: 10px;
+          text-decoration: none;
+          font-size: 16px;
+          font-weight: bold;
+          border: 0px;
+          margin-top: 20px;
+    }
+    label {
+      margin-top: 10px;
+      float: left;
+      text-align: left;
+      width: 100%;
+    }
+    input {
+      padding: 6px;
+      width: 100%;
+      box-sizing: border-box;
+      background: #f8f8f8;
+      border: 2px solid #ccc;
+      outline-color: salmon;
+    }
+    select {
+      padding: 6px;
+      width: 100%;
+      box-sizing: border-box;
+      background: #f8f8f8;
+      border: 2px solid #ccc;
+      outline-color: salmon;
+    }
+    div {
+      width: 100%;
+      height: auto;
+    }
+    .base {
+      width: 400px;
+      height: auto;
+      padding: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      background: #b7ebb5;
+    }
+    </style>
+  </head>
+  <body>
+      <center>
+        <h1>Aplikasi Cetak Kartu</h1>
+        <h1>Nomor Induk Siswa Nasional</h1>
+        <h1>(NISN) Online</h1>
+      <center>
+      <form method="POST" action="proses_tambah.php" enctype="multipart/form-data" >
+      <section class="base">
+        <div>
+          <label>NISN</label>
+          <input type="text" name="nisn" autofocus="" onkeypress="return hanyaAngka(this);" maxlength="10" required="" />
+        </div>
+        <div>
+          <label>Nama</label>
+         <input type="text" name="nama" />
+        </div>
+        <div>
+          <label>Tempat Lahir</label>
+         <input type="text" name="tempat_lahir" required="" />
+        </div>
+        <div>
+          <label>Tanggal Lahir</label>
+         <input type="date" name="tgl_lahir" required="" />
+        </div>
+        <div>
+          <label>Jenis Kelamin</label>
+          <select name="jk" required>
+              <option value="">Pilih Jenis Kelamin</option>
+              <option value="Laki-laki">Laki-laki</option>
+              <option value="Perempuan">Perempuan</option>
+        </select>
+        </div>
+        <!---<div>
+          <label>Foto</label>
+         <input type="file" name="gambar" required="" />
+        </div>--->
+        <div>
+         <button type="submit">SIMPAN</button>
+        </div>
+        </section>
+      </form>
+      <br>
+      By Tim Support Intel Madrasah
+      <br>
+      <a href="https://www.youtube.com/channel/UCezRK_1tdvGozy8uLQclAVg">Like and Subcribe</a>
+      <br>
+      <a href="https://www.intelmadrasah.com/">Follow</a>
+      <br>Klik Link Berikut Untuk Cetak Kartu NISN Includ Pas Fhoto Siswa
+      <a href="https://cetak-nisn2.kotagorontalo.my.id/">KLIK DISINI</a>
+<script>
+  function hanyaAngka(evt) {
+    var charCode = (evt.which) ? evt.which : event.keyCode
+     if (charCode > 31 && (charCode < 48 || charCode > 57))
+ 
+      return false;
+    return true;
+  }
+ </script>
+   
+  </body>
+</html>
