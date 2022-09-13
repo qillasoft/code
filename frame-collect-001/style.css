@@ -1,0 +1,17 @@
+<style type='text/css'>
+.qillasoft-scroll-container{
+  overflow: auto;
+  white-space: nowrap;
+  padding: 5px 70px 5px 20px;
+  background: transparent;
+  height: 125px;
+}
+.qillasoft-gridscroll{
+  display:inline-block;
+}
+.qillasoft-gridscroll img {
+  margin-right:10px;
+  height: 100px;
+  width: auto;
+}
+</style>
