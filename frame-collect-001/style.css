@@ -1,5 +1,8 @@
 /* Coding By QILLASOFT | www.qillasoft.com */
 
+body {
+  background: transparent;
+}
 .qillasoft-scroll-container{
   overflow: auto;
   white-space: nowrap;
