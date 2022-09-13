@@ -1,5 +1,8 @@
 /* Coding By QILLASOFT | www.qillasoft.com */
 
+body {
+  background: transparent;
+}
 .qillasoft-scroll-container{
   overflow: auto;
   white-space: nowrap;
@@ -11,7 +14,7 @@
   display:inline-block;
 }
 .qillasoft-gridscroll img {
-  margin-right: 14px;
+  margin-right: 15px;
   height: 100px;
   width: auto;
 }
