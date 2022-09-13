@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+	  <link rel="stylesheet" type="text/css" href="css/scrollable-horizontal.css">
+	  <link rel="stylesheet" type="text/css" href="css/scrollable-buttons.css">
+	  
+    <script src="jquery.tools.min.js"></script>
+
+    <script type="text/javascript"> 
+      $(document).ready(function(){
+          $("#gulung").scrollable({ 
+            circular: true
+          });
+      });
+    </script>
+  </head>
+    <body>
+      <div style="margin:0 auto; width: 634px; height:120px;">
+      <!-- aksi untuk halaman sebelumnya -->
+      <a class="prev browse left"></a>
+
+      <!-- elemen untuk efek scrollable -->
+      <div class="scrollable" id="gulung">
+
+        <!-- elemen untuk items (gambar) -->
+        <div class="items">
+
+          <!-- foto ke 1 s.d 4 -->
+          <div>
+		        <img src="images/skyfall_t.jpg">
+		        <img src="images/stolen_t.jpg">
+		        <img src="images/lorax_t.jpg">
+		        <img src="images/spiderman_t.jpg">
+          </div>
+
+          <!-- foto ke 5 s.d 8 -->
+          <div>
+		        <img src="images/ichi_t.jpg">
+		        <img src="images/les_t.jpg">
+		        <img src="images/jack_t.jpg">
+		        <img src="images/robinhood_t.jpg">
+          </div>
+
+          <!-- foto ke 9 s.d 12 -->
+          <div>
+		        <img src="images/khan_t.jpg">
+		        <img src="images/kcb_t.jpg">
+		        <img src="images/pemimpi_t.jpg">
+		        <img src="images/confucius_t.jpg">
+          </div>
+        </div>
+      </div>
+
+      <!-- aksi untuk halaman berikutnya -->
+      <a class="next browse right"></a>
+      </div>
+    </body>
+</html>
