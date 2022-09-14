@@ -1,0 +1,20 @@
+/* Coding By QILLASOFT | www.qillasoft.com */
+
+body {
+  background: transparent;
+}
+.qillasoft-scroll-container{
+  overflow: auto;
+  white-space: nowrap;
+  padding: 5px 0px 5px 10px;
+  background: transparent;
+  height: 125px;
+}
+.qillasoft-gridscroll{
+  display:inline-block;
+}
+.qillasoft-gridscroll img {
+  margin-right:10px;
+  height: 100px;
+  width: auto;
+}
